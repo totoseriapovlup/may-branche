@@ -8,3 +8,6 @@ spl_autoload_register(function ($className) {
     }
     return false;
 });
+
+$test = new Test();
+echo $test;
