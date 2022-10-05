@@ -16,6 +16,7 @@ spl_autoload_register(function ($className) {
 
 
 //some object for testing
+//k;jkljl
 $test = new Test();
 echo $test;
 unset($test);
