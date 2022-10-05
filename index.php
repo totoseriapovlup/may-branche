@@ -1,16 +1,13 @@
-<?php
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
 
-spl_autoload_register(function ($className) {
-    $classFile = 'vendor/' . str_replace('\\', DIRECTORY_SEPARATOR, $className) . '.php';
-    if(file_exists($classFile)){
-        include_once $classFile;
-        return true;
-    }
-    return false;
-});
-
-//some object for testing
-//k;jkljl
-$test = new Test();
-echo $test;
-unset($test);
+</body>
+</html>
