@@ -9,6 +9,12 @@ spl_autoload_register(function ($className) {
     return false;
 });
 
+
+
+
+
+
+
 //some object for testing
 $test = new Test();
 echo $test;
